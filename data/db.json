@@ -1,0 +1,222 @@
+{
+  "Users": [
+    {
+      "id": 1,
+      "profPic": "assets/person/user1.jpg",
+      "userName": "jack leach"
+    },
+    {
+      "id": 2,
+      "profPic": "assets/person/user2.jpg",
+      "userName": "John leach"
+    },
+    {
+      "id": 3,
+      "profPic": "assets/person/user3.jpg",
+      "userName": "Elon leach"
+    },
+    {
+      "id": 4,
+      "profPic": "assets/person/user4.jpg",
+      "userName": "Odinson leach"
+    },
+    {
+      "id": 5,
+      "profPic": "assets/person/user2.jpg",
+      "userName": "John vick"
+    },
+    {
+      "id": 6,
+      "profPic": "assets/person/user2.jpg",
+      "userName": "vick"
+    }
+  ],
+  "Posts": [
+    {
+      "id": 1,
+      "desc": "hey!!! This is my first post",
+      "photo": "assets/person/timeline1.jpg",
+      "date": "5 mins ago",
+      "userId": 1,
+      "like": 32,
+      "love": 8,
+      "comment": 9
+    },
+    {
+      "id": 2,
+      "desc": "hey!!! This is my second post",
+      "photo": "assets/person/dog.jpg",
+      "date": "10 mins ago",
+      "userId": 2,
+      "like": 35,
+      "love": 12,
+      "comment": 5
+    },
+    {
+      "id": 3,
+      "desc": "hey!!! This is my third post",
+      "photo": "assets/person/burger.jpg",
+      "date": "15 mins ago",
+      "userId": 3,
+      "like": 70,
+      "love": 9,
+      "comment": 11
+    }
+  ],
+  "Networks": [
+    {
+      "id": 1,
+      "name": "Zeff Oleskii",
+      "profileImage": "assets/person/user1.jpg",
+      "coverImage": "assets/cover/cover1.jpg",
+      "status": "following",
+      "workplace": "Works at Microsoft"
+    },
+    {
+      "id": 2,
+      "name": "Alex John",
+      "profileImage": "assets/person/user2.jpg",
+      "coverImage": "assets/cover/cover2.jpg",
+      "status": "following",
+      "workplace": "Works at Deloite"
+    },
+    {
+      "id": 3,
+      "name": "D Pretorious",
+      "profileImage": "assets/person/user3.jpg",
+      "coverImage": "assets/cover/cover3.jpg",
+      "status": "following",
+      "workplace": "Works at Google"
+    },
+    {
+      "id": 4,
+      "name": "D'Arcy Carden",
+      "profileImage": "assets/person/user4.jpg",
+      "coverImage": "assets/cover/cover4.jpg",
+      "status": "following",
+      "workplace": "Works at Amazon"
+    },
+    {
+      "id": 5,
+      "name": "Jimmy Anderson",
+      "profileImage": "assets/person/user5.jpg",
+      "coverImage": "assets/cover/cover5.jpg",
+      "status": "following",
+      "workplace": "Works at Amazon"
+    },
+    {
+      "id": 6,
+      "name": "Zack Jhones",
+      "profileImage": "assets/person/user6.jpg",
+      "coverImage": "assets/cover/cover6.jpg",
+      "status": "following",
+      "workplace": "Works at Amazon"
+    }
+  ],
+  "RegistrationUser": [
+    {
+      "id": 1,
+      "name": "Alex John",
+      "phone": 123456,
+      "email": "jack@gmail.com",
+      "password": "123",
+      "cpassword": "123"
+    },
+    {
+      "id": 2,
+      "name": "Alex John",
+      "phone": 123456,
+      "email": "jack@gmail.com",
+      "password": "123",
+      "cpassword": "123"
+    },
+    {
+      "name": "Sanjeev Kumar Kansari",
+      "phone": "09685398851",
+      "email": "snjvkansari@hotmail.com",
+      "password": "1234",
+      "cpassword": "1234",
+      "id": 3
+    },
+    {
+      "name": "james",
+      "phone": "789456",
+      "email": "j@gmail.com",
+      "password": "123",
+      "cpassword": "123",
+      "id": 4
+    },
+    {
+      "name": "jackob",
+      "phone": "456",
+      "email": "jack2gmail.com",
+      "password": "123",
+      "cpassword": "123",
+      "id": 5
+    },
+    {
+      "name": "jackob",
+      "phone": "456",
+      "email": "jack2gmail.com",
+      "password": "123",
+      "cpassword": "123",
+      "id": 6
+    },
+    {
+      "name": "jack",
+      "phone": "456",
+      "email": "jack2gmail.com",
+      "password": "123",
+      "cpassword": "123",
+      "id": 7
+    },
+    {
+      "name": "",
+      "phone": "",
+      "email": "",
+      "password": "",
+      "cpassword": "",
+      "id": 8
+    },
+    {
+      "name": "",
+      "phone": "",
+      "email": "",
+      "password": "",
+      "cpassword": "",
+      "id": 9
+    },
+    {
+      "name": "",
+      "phone": "",
+      "email": "",
+      "password": "",
+      "cpassword": "",
+      "id": 10
+    },
+    {
+      "name": "",
+      "phone": "",
+      "email": "",
+      "password": "",
+      "cpassword": "",
+      "id": 11
+    },
+    {
+      "name": "",
+      "phone": "",
+      "email": "",
+      "password": "",
+      "cpassword": "",
+      "id": 12
+    },
+    {
+      "name": "",
+      "phone": "",
+      "email": "",
+      "password": "",
+      "cpassword": "",
+      "id": 13
+    }
+  ]
+}

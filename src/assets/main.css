@@ -1,0 +1,698 @@
+*{
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+/* TopNavbar css */
+.logo{
+    height: 50px;
+}
+.brand-nav{
+    color: #fff;
+    font-weight: bold;
+}
+.nav-item-container{
+    justify-content: right;
+}
+.nav-ul{
+    justify-content: end;
+}
+.search-input{
+    width: 160px;
+    height: 30px;
+    border-radius: 16px 0 0 16px;
+    border: none;
+    box-shadow: none !important;
+    outline: none;
+}
+.search-btn{
+    color: #ffffff;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 1px !important;
+    padding-bottom: 1px !important;
+    border-radius: 0px 16px 16px 0 !important;
+    box-shadow: none !important;
+    outline: none;
+    border: 1px solid #47aeae;
+    background-color: #47aeae;
+}
+.search-btn:hover{
+    border: 1px solid #47aeae;
+    color:#47aeae
+}
+.nav-items{
+    color: #fff !important;
+    font-weight: 500;
+}
+.navbar-toggler:focus, .navbar-toggler-icon:focus{
+    /* outline: none; */
+    box-shadow: none; /*This line is to remove shadow around the toggler icon(hamburger) in nav bar on clicking*/
+}
+/* #######topNavbar css ends############ */
+/* Navbar */
+/* .logo{
+    height: 55px;
+} */
+.brand-nav{
+    color: #fff;
+    font-weight: bold;
+}
+.nav-item-container{
+    justify-content: right;
+}
+.nav-ul{
+    justify-content: end;
+}
+.search-input{
+    width: 160px;
+    height: 30px;
+    border-radius: 16px 0 0 16px;
+    border: none;
+    box-shadow: none !important;
+    outline: none;
+}
+.search-btn{
+    color: #ffffff;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 1px !important;
+    padding-bottom: 1px !important;
+    border-radius: 0px 16px 16px 0 !important;
+    box-shadow: none !important;
+    outline: none;
+    border: 1px solid #47aeae;
+    background-color: #47aeae;
+}
+.search-btn:hover{
+    border: 1px solid #47aeae;
+    color:#47aeae
+}
+.nav-items{
+    color: #fff !important;
+    font-weight: 500;
+}
+.navbar-toggler:focus, .navbar-toggler-icon:focus{
+    /* outline: none; */
+    box-shadow: none; /*This line is to remove shadow around the toggler icon(hamburger) in nav bar on clicking*/
+}
+#myProfile{
+    position: relative;
+}
+.image-prof {
+    margin-top: -4rem;
+    padding-left: 1rem;
+}
+
+.image-pro {
+    border: 6px solid #fff;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+
+}
+/*####navbar ends########### */
+/* card */
+.card-parent-row {
+    justify-content: space-between;
+}
+
+.cover-img-div {
+    object-fit: cover;
+    height: 120px;
+}
+
+.card-title-container,
+.card-status {
+    width: fit-content;
+}
+
+.card-text {
+    font-size: x-small;
+}
+
+.card-title {
+    color: #47aeae;
+}
+
+.card-status {
+    color: #80bc22;
+}
+
+#outer-card-div {
+    padding-bottom: 20px;
+}
+
+/* timeline.css */
+body {
+    background: #fff !important;
+}
+
+/* profile pic and cover pic section */
+.cover-image {
+    width: 100%;
+    object-fit: cover;
+    /* height: 50vh; */
+    height: 300px;
+}
+
+.cover-image-div {
+    text-align: center;
+    position: relative;
+}
+
+.cover-info-box {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.83) 100%);
+    padding-bottom: 16px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+}
+
+.profile-pic-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    column-gap: 15PX;
+}
+
+.profile-pic {
+    width: 10rem;
+    height: 10rem;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+}
+
+.profile-info{
+    text-align: left;
+}
+
+.profile-info h4 {
+    text-shadow: 0px 0px 10px #000;
+    color: #fff;
+    font-size: 2.2rem;
+}
+
+.profile-info p{
+    margin-bottom: 5px;
+    color: #ffffff;
+    text-shadow: 0px 0px 10px #000;
+}
+.info-contents{
+    font-weight: 500;
+    color: #ffffff;
+    text-shadow: 0px 0px 10px #000;
+}
+#myProfile{
+    background: #fff;
+}
+/* ####### profile and cover ends##### */
+
+#timeline-content {
+    padding: 70px 0;
+}
+
+.post-box {
+    border-radius: 5px;
+    border: 1px solid #a7a0a069;
+    padding-left: 6px;
+}
+
+.post-btn {
+    background: #47aeae;
+    padding: 0 15px;
+    border-radius: 12px;
+    border: none;
+}
+.post-btn:hover{
+    outline: none;
+    border: none;
+}
+
+.post-btn-container,
+.post-icon-container,
+.textarea-container {
+    width: fit-content;
+}
+
+.btn-icon {
+    color: #000;
+    border: none;
+    background: #ffffff;
+}
+#btn-collection-icon{
+   color: #ff4500;
+}
+#btn-video-icon{
+   color: #ff9600;
+}
+#btn-place-icon{
+   color: #09a514;
+}
+.reactionImg{
+   height: 25px;
+  }
+
+  .react-btn{
+   padding: 0 0 0 5px;
+   border-width: 0 !important;
+  }
+
+
+  .likeCounter{
+   color: gray;
+   font-size: 12px;
+  }
+.user-name {
+    text-decoration: none;
+    padding-right: 20px;
+    color: #47aeae;
+}
+.user-info{
+   align-items: center;
+   display: flex;
+}
+.timeline-profile-pic{
+   width: 40px;
+   height: 40px;
+   border-radius: 50%;
+   margin-right: 5px;
+}
+.follow {
+    color: #5fec5f;
+    font-size: small;
+}
+
+.post-details {
+    display: flex;
+    justify-content: space-between;
+}
+
+.post-details-container {
+    padding: 10px 10px 25px 10px;
+    /* background: #c5c2c21c; */
+    /* border-radius: 0 0 5px 5px; */
+    margin-bottom: 20px;
+    /* border: 1px solid #dbd8d8; */
+}
+
+.post-container{
+   /* background:#f9f8f8; */
+   box-shadow: 0px 0px 15px 0px rgb(0 0 0 / 21%);
+   border-radius: 5px;
+}
+.user-comments {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+.friends {
+    font-weight: bold;
+    color: #47aeae;
+}
+
+.do-comment {
+    width: 100%;
+    border: 1px solid #dbd8d8;
+    border-radius: 3px;
+}
+
+.timeline-image {
+    /* border-radius: 5px 5px 0 0; */
+    max-width: 100%;
+    padding: 10px 10px 0 10px;
+   
+}
+
+/* ######sidebar##### */
+.activity-type {
+    padding: 10px 20px;
+}
+
+.post-time{
+    color:#9d9fa1 ;
+}
+.feed-content {
+    border-left: 2px solid #80bc22;
+    height: 30px;
+    padding-left: 10px;
+    margin-bottom: 30px;
+    color: #6d6e71;
+}
+
+.feed-time {
+    padding-left: 10px;
+    color: #9d9fa1;
+}
+.comments{
+    color: #6d6e71;
+    /* padding-left: 10px; */
+}
+.sidebar {
+    position: sticky;
+    top: 0;
+
+}
+
+.name {
+    text-decoration: none;
+    color: #47aeae;
+}
+.name:hover{
+    color: #47aeae;
+}
+
+/* ###sidebar ends############ */
+
+/* #####footer##### */
+.footer-brand-name {
+    text-decoration: none;
+    font-weight: bold;
+    color: #000;
+    font-size: larger;
+}
+
+.footer-brand-name:hover {
+    color: 000;
+}
+
+.social-icons {
+    width: fit-content;
+}
+
+.contact-items {
+    text-decoration: none;
+    color: #000;
+}
+
+.contact-icons {
+    padding-right: 15px;
+}
+
+
+.footer-nav{
+   padding: 12px 0;
+   color: #69bdbd;
+   font-size: larger;
+}
+.footer-item{
+   text-decoration: none;
+   color: #6d6e71;
+}
+.footer-item:hover, .contact-items:hover{
+   color: #6d6e71;
+}
+.last-sticky-row{
+   text-align: center;
+   color: #d5c8c8;
+   background: #212529;
+   padding: 1rem ;
+   margin-top: 25px
+}
+.contact-items{
+   color: #6d6e71;
+}
+.social-icons{
+   background: #69bdbd;
+   border-radius: 50%;
+   padding: 0px;
+   width: 30px;
+   line-height: 30px;
+   /* height: 30px; */
+   text-align: center;
+   display: inline-block;
+}
+.social-icons i{
+   color: #fff;
+}
+#footer{
+   background: #f6f6f6;
+   padding: 50px 0px 0px;
+}
+/* #####Footer ends */
+/* LeftSidebar */
+.connect-btn {
+   color: #80bc22;
+}
+
+.suggestion-friend {
+   width: 50px;
+   height: 50px;
+   border: 5px;
+   border-radius: 50%;
+}
+
+.suggestion-dp {
+   width: fit-content;
+   margin-left: 1rem;
+}
+
+.feed-content {
+   width: fit-content;
+   border: 2px solid #fff;
+}
+
+.feed-content-div {
+   width: fit-content;
+}
+
+.sidebar-head {
+   color: #80808080;
+}
+
+.search-friend {
+   width: 160px;
+   height: 30px;
+   border-radius: 16px 0 0 16px;
+   /* border: none; */
+   box-shadow: none !important;
+   outline: none;
+}
+/* ######Left sidebar ends###### */
+
+
+/* Main Timeline */
+.border-on-click {
+   /*To remove default border outline on button click*/
+   border: none;
+   outline: none;
+}
+
+.change-font-color {
+   color: #E91E63 !important;
+}
+
+.react-btn:hover {
+   border: none;
+   outline: none;
+}
+.timeline-image{
+   max-width: 100%;
+}
+/* #######Main timeline ends#########3 */
+
+@media only screen and (max-width: 768px) {
+    .cover-image {
+        height: 200px;
+    }
+    .cover-info-box {
+        position: relative;
+        bottom: auto;
+        background: none;
+        margin-top: -65px;
+    }
+    .profile-pic-div {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .profile-pic {
+        width: 120px;
+        height: 120px;
+    }
+    .profile-info h4 {
+        text-shadow: none   ;
+        color: #47aeae;
+        font-size: 1.5rem;
+    }
+    .profile-info p {
+        color: #9d9fa1;
+        text-shadow: none;
+    }
+    .info-contents{
+        color: #6d6e71;
+        text-shadow: none;
+    }
+}
+
+/* ################Login.jsx############## */
+.logo-img-container{
+   text-align: center; 
+   padding-bottom:1rem;
+}
+.login-header-text{
+   color: #23f1e7;
+}
+.signup-para{
+   font-size:12px ;
+}
+.signup-link{
+   text-decoration: none;
+   color: #47aeae;
+}
+.login-botton-container{
+   text-align: end;
+}
+/* html, body{
+   overflow-x:hidden;
+} */
+
+/* body{
+   background-image: url("./assets/background/body_background.jpg") !important;
+   opacity: 0.5;
+} */
+
+/* .logo{
+   height: 40px;
+} */
+.brand-nav{
+   color: #fff;
+   font-weight: bold;
+}
+.nav-item-container{
+   justify-content: right;
+}
+.nav-ul{
+   justify-content: end;
+}
+.search-input{
+   width: 160px;
+   height: 30px;
+   border-radius: 16px 0 0 16px;
+   border: none;
+   box-shadow: none !important;
+   outline: none;
+}
+.search-btn{
+   padding-top: 1px !important;
+   padding-bottom: 1px !important;
+   border-radius: 0px 16px 16px 0 !important;
+   box-shadow: none !important;
+}
+.nav-items{
+   color: #fff !important;
+   font-weight: 500;
+}
+.navbar-toggler:focus, .navbar-toggler-icon:focus{
+   box-shadow: none;
+}
+/*######################### content section #####################*/
+.banner-head{
+   color: #fff;
+   font-family: 'Agency FB', sans-serif;
+}
+.banner-text{
+   color: #fff;
+   font-family: 'Agency FB', sans-serif;
+   font-size: 20px;
+}
+.banner-img-div{
+   text-align: center;
+   margin-bottom: 12px;
+}
+/*##################Registration form################*/
+.reg-form-div{
+   background: #fff;
+   padding-left: 3.5rem;
+   padding-right: 3.5rem;
+   padding-top: 35px;
+   padding-bottom: 35px;
+   padding: 35px 3.5rem;
+   border-radius: 30px 0 30px 0;
+   box-shadow: 0px 0px 8px 3px rgb(250 249 249 / 75%);
+}
+.reg-inputs{
+   margin: 30px auto;
+}
+.input-tag{
+   width: 100%;
+   border: 1px solid #a7a0a069;
+   border-radius: 18px 0;
+   padding: 5px 15px;
+}
+.reg-btn{
+   background: #47aeae;
+   font-size: 15px;
+   border-radius: 18px 0;
+   padding: 8px 22px;
+   border: none;
+   font-weight: bold;
+}
+
+/* Content section */
+#content{
+   padding-top: 8%;
+   padding-bottom: 8%;
+}
+
+@media screen and (max-width:425px) {
+   #content {
+       margin-top: 9rem;
+   }
+
+   .reg-form-div {
+       padding: 76px 12px;
+   }
+}
+/* #############login.jsx ends############ */
+
+/* ##################Connection.jsx starts##################### */
+.image-prof {
+   margin-top: -4rem;
+   padding-left: 1rem;
+}
+
+.image-pro {
+   border: 6px solid #fff;
+   height: 100px;
+   width: 100px;
+   border-radius: 50%;
+
+}
+
+.card-parent-row {
+   justify-content: space-between;
+}
+
+.cover-img-div {
+   object-fit: cover;
+   height: 120px;
+}
+.card{
+   border: none !important;
+   box-shadow: 0px 0px 5px 0px rgb(0 0 0 / 75%);
+}
+.card-title-container,
+.card-status {
+   width: fit-content;
+}
+
+.card-text {
+   font-size: x-small;
+   text-align: left;
+}
+
+.card-title {
+   color: #47aeae;
+}
+
+.card-status {
+   color: #80bc22;
+}
+
+#outer-card-div {
+   padding-bottom: 20px;
+}
+/* ##############Connection.jsx ends########### */
