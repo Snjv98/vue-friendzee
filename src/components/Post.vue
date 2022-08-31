@@ -218,7 +218,7 @@ export default {
                     comment: 9
 
                 })
-                alert(this.newPost)
+                alert("added at last "+"'"+this.newPost+"'")
             }
         }
     }
