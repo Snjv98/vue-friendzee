@@ -639,7 +639,9 @@ body {
 
 @media screen and (max-width:425px) {
    #content {
-       margin-top: 9rem;
+       margin-top: 0rem;
+       padding-top: 20%;
+       padding-bottom: 29%;
    }
 
    .reg-form-div {
